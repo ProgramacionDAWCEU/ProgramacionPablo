@@ -1,0 +1,12 @@
+base de datos sql
+--- se modifica la tabla hija osea la primera que se pone alter table (hija) add constraint (nombre tabla origen hacia la destino ej, 
+
+TFK_ESTADIO_TIPOESTADIO FOREIGN KEY ( ahora la columna de la que estoy alterando) hacia la tabla que queremos que vaya (tipo_estadio (idtipoestadio)
+
+Ejemplo ALTER TABLE ESTADIOS ADD CONSTRAINT FK_ESTADIO_ESTADIOSTIPO FOREIGN KEY (IDTIPOESTADIO) REFERENCES TIPO_ESTADIOS (IDTIPOESTADIO)
+
+ ALTER TABLE TABLA_HIJA ADD CONSTRAINT FK_NOMBRE FOREIGN KEY (NOMBRECOLUMNA- TABLAHIJA) REFERENCES TABLA-PADRE (NOMBRECOLUMNA-TABLAPADRE)
+
+INSERT INFO EQUIPOS (IDEQUIPO, NOMBRE, NOMBRE_PRESI,NUM_AFILIADOS,ANHO_CREACION)
+VALUES
+(4, 'BETIS', 'LOPERA'(COMILLAS PORQUE ES TEXTO),3000,1907)
